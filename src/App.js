@@ -1,11 +1,12 @@
-import './App.css';
+import React from 'react';
+import Page from './page/Page';
 
-function App() {
+const App = () => {
+  const App = 'App';
+  console.log(App)
   return (
-    <div className="App">
-      App
-    </div>
-  );
+    <div><Page/></div>
+  )
 }
 
-export default App;
+export default App
